@@ -3,14 +3,12 @@ import { useHistory } from 'react-router-dom';
 
 import filesize from 'filesize';
 
-import Header from '../../components/Header';
-import FileList from '../../components/FileList';
-import Upload from '../../components/Upload';
-
-import { Container, Title, ImportFileContainer, Footer } from './styles';
-
 import alert from '../../assets/alert.svg';
+import FileList from '../../components/FileList';
+import Header from '../../components/Header';
+import Upload from '../../components/Upload';
 import api from '../../services/api';
+import { Container, Title, ImportFileContainer, Footer } from './styles';
 
 interface FileProps {
   file: File;
